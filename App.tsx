@@ -52,6 +52,9 @@ export default function App() {
     
   }
 
+  console.log("hitesh");
+
+
   const createPassword = (characters: string, passwordLength: number) => {
     let result = ''
     for (let i = 0; i < passwordLength; i++) {
